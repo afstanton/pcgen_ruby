@@ -1,0 +1,8 @@
+[submodule "externals/PCGen/pcgen"]
+	path = externals/PCGen/pcgen
+	url = git@github.com:PCGen/pcgen.git
+	branch = master
+[submodule "externals/BahamutDragon/pcgen"]
+	path = externals/BahamutDragon/pcgen
+	url = git@github.com:BahamutDragon/pcgen.git
+	branch = master
