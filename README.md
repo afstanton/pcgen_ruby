@@ -16,7 +16,7 @@ This git repository includes the pcgen repositories from PCGen and BahamutDragon
 
 ## Development
 
-The spec/fixtures directory contains symlinks to the data directories from the above submodules.
+The spec/fixtures directory contains symlinks to the data directories from the above submodules. As such, if you want to develop in this repo, you will need to run `git submodule update --init` after cloning this.
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
